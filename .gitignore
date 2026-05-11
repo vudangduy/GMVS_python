@@ -1,0 +1,39 @@
+# =====================
+# Python
+# =====================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.log
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# =====================
+# Qt / PyQt
+# =====================
+*.ui.autosave
+*.qmlc
+*.jsc
+
+# =====================
+# Build / dist
+# =====================
+build/
+dist/
+*.egg-info/
+
+# =====================
+# IDE (VSCode / PyCharm)
+# =====================
+.vscode/
+.idea/
+
+# =====================
+# OS files
+# =====================
+.DS_Store
+Thumbs.db
