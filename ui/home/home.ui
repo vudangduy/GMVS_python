@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>1920</width>
-    <height>1075</height>
+    <height>1070</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -20,10 +20,68 @@
       <x>0</x>
       <y>0</y>
       <width>1911</width>
-      <height>1071</height>
+      <height>1061</height>
      </rect>
     </property>
-    <layout class="QVBoxLayout" name="layout_Main"/>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QFrame" name="frame">
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QWidget" name="horizontalLayoutWidget">
+        <property name="geometry">
+         <rect>
+          <x>-1</x>
+          <y>-1</y>
+          <width>551</width>
+          <height>77</height>
+         </rect>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <item>
+          <widget class="QLabel" name="lbl_LogoIcon">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>../resources/icons/icon_logo_75x75.png</pixmap>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label">
+           <property name="font">
+            <font>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>*TITLE APPLICATION</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </item>
+     <item>
+      <widget class="QWidget" name="widget" native="true"/>
+     </item>
+     <item>
+      <widget class="QFrame" name="frame_2">
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+      </widget>
+     </item>
+    </layout>
    </widget>
   </widget>
  </widget>
