@@ -23,3 +23,7 @@ class HomeWindow(QMainWindow):
         self.theme = ThemeManager()
         self.theme.apply_home_theme(self)
 
+        # Show maximum window
+            #self.showFullScreen()
+        self.showMaximized()
+

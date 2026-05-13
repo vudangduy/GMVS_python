@@ -28,8 +28,7 @@ class LoadingWindow(QMainWindow):
 
         self.theme.apply_loading_theme(self)
 
-        # No cover and always on-top (if necessary)
-        # self.setWindowFlags(Qt.WindowType.FramelessWindowHint | Qt.WindowType.WindowStaysOnTopHint)
+        # Set loading window with no cover
         self.setWindowFlags(Qt.WindowType.FramelessWindowHint)
 
         self.thread = QThread()

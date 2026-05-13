@@ -62,7 +62,10 @@ class ThemeManager:
     def apply_home_theme(self, window):
         window.setStyleSheet("""
         QMainWindow{
-            background-color: #1e1f22
+            background-color: #1e1f22;
+        }
+        QFrame#frame_TopBar{
+            background-color: #222932;
         }
         """)
     
