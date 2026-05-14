@@ -9,16 +9,9 @@ class SysInit(QObject):
 
     def run(self):
         steps = [
-            "Loading configuration file...(1/10)",
-            "Loading application files...(2/10)",
-            "Calculate memory usage...(3/10)",
-            "Check valid hardware...(4/10)",
-            "Check licenses...(5/10)",
-            "Initializing system...(6/10)",
-            "Loading application...(7/10)",
-            "Connecting to database...(8/10)",
-            "Connecting to devices...(9/10)",
-            "Joining home window...(10/10)",
+            "Loading configuration file...(1/3)",
+            "Loading application files...(2/3)",
+            "Calculate memory usage...(3/3)"
         ]
 
         total = len(steps)
